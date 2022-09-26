@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  font-family:sans-serif;
+  background-color:#f3f3f3;
+
+}
+.circular_image{
+  border-radius: 50%;
+  width: 300px;
+
+.topbar {
+  background-color: #b1a6a7;
+
+}
+
+
+#contact{
+  position:fixed;
+  bottom: 20px
+
+}
+h3, a {
+  color: #683b2b;
+
+}
+.khasisproject{
+width: 300px;
+}
