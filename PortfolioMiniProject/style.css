@@ -1,28 +1,119 @@
+/*global*/
 body {
-  text-align: center;
-  font-family:sans-serif;
-  background-color:#f3f3f3;
+  font-family: optima, sans-serif;
+  background-color:#e2bcab;
 
 }
-.circular_image{
-  border-radius: 50%;
-  width: 300px;
+
+
+
+/*first page*/
+.rectangle_image{
+  object-fit: cover;
+  width: 400px;
+  height: 700px;
+ float:right;
+}
+a{
+  color: #661528;
+  text-decoration: none;
+  font-weight: normal;
+}
+ .bulletstyle{
+   list-style-type: none;
+ }
+
+h1{
+  font-weight:bold ;
+  font-size:40px;
+}
+.name{
+  padding-top: 20%;
+  padding-left: 39px;
+  line-height:15px;
+}
+footer {
+text-align: center;
+padding-top: 175px;
+}
+.navigationmain{
+  text-align: left;
+  padding-top: 20px;
+  line-height: 50px;
+  font-size: 30px;
+
+}
+
+@font-face {
+font-family:"Devitta";
+src: url("../fonts/Devitta.ttf");
+}
+
+h3{
+  color: #4f6256;
+  font-size: 30px;
+  font-family:"Devitta";
+  font-weight: lighter;
+}
+
+#tagline{
+  font-size: 17px;
+}
+/*Projects*/
+.khasisproject, .openmentorship, .punemetro{
+margin-left: 50px;
+margin-top: 60px;
+
+
+}
+
+
+
+
+
+/*resume*/
+h2 {
+margin-left: 20px;
+font-size: 18px;
+}
+
+/*Recommendations*/
+.container {
+  border: 2px solid #ccc;
+  background-color: #e5d2c1;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/*global template topbar*/
+
+
+#left {
+
+    float:left;
+    padding-left:30px;
+
+}
+
+#right {
+
+    float:right;
+    display:block;
+    padding-left:30px
+  }
 
 .topbar {
-  background-color: #b1a6a7;
+  font-size: 30px;
+  padding-top: 40px;
+}
+.resumet, .reccomt, .projectst{
+  padding-right: 20px;
 
 }
-
-
-#contact{
-  position:fixed;
-  bottom: 20px
-
-}
-h3, a {
-  color: #683b2b;
-
-}
-.khasisproject{
-width: 300px;
+hr{
+  margin-top: 50px;
+  height: 2px;
+  background-color:#4f6256;
+ border: none;
 }
